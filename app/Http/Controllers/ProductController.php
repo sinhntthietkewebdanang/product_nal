@@ -42,7 +42,8 @@ class ProductController extends Controller
       $product->price = $request->price;
       $product->unit = $request->Unit;
       $product->save();
-      return view('product.index');
+      $data=\App\Product::all();
+      return view('product.index',compact('data'));
     }
 
 
