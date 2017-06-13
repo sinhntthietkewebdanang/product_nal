@@ -1,0 +1,49 @@
+#container{
+	margin: auto;
+	width: 900px;
+}
+#header{
+	border-bottom-style: solid ;
+	border-top-style: solid ;
+	height:30px;
+	padding: 10px;
+	margin-bottom: 20px; 
+}
+#header_left{
+	float:left;
+
+}
+#header_left a{
+	text-decoration: none;
+}
+#header_right{
+	float:right;
+}
+#content {
+	width: width: 900px;
+	
+}
+#content-left{
+	 width: 400px;
+	min-height:300px;
+	float: left;
+	border-style: ridge;
+	margin-left: 20px;
+	padding-top:50px; 
+	padding-left:20px;
+}
+#content-right{
+	 width: 400px;
+	min-height:300px;
+	float:right;
+	border-style: ridge;
+	margin-right: 20px;
+	padding-top:50px; 
+	padding-left:20px;
+}
+div label{
+	margin-right: 30px;
+}
+div{
+	margin-bottom: 20px;
+}
