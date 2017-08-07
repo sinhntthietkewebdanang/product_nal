@@ -11,6 +11,6 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
     function test(){
-    	echo 'test confilic';
+    	echo 'test confilic1abcd';
     }
 }
